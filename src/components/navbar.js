@@ -5,6 +5,8 @@ import Grid from "@material-ui/core/Grid";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import PaperSheet from './profile';
 import Link from "@material-ui/core/Link";
+import ProjectsPanel from "./projects";
+import Experience from "./experience";
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -43,6 +45,8 @@ export default function NavBar() {
           </Grid>
         </Toolbar>
         <Route path="/" exact component={PaperSheet} />
+        <Route path="/experience" component={Experience} />
+        <Route path="/projects" component={ProjectsPanel} />
       </AppBar>
     </Router>
 

@@ -26,6 +26,7 @@ export default function PaperSheet() {
   const classes = useStyles();
   const linkedIn = "https://www.linkedin.com/in/jpancho/";
   const gitHub = "https://github.com/jpancho";
+  const [elevation, setElevation] = useState(1);
 
   React.useEffect(() => {
     loadCSS(
@@ -34,12 +35,10 @@ export default function PaperSheet() {
     );
   }, []);
 
-  const [elevation, setElevation] = useState(1);
-
   return (
     <div className={classes.root}>
       <Paper className={classes.paper}
-             onMouseOver={() => setElevation(10)}
+             onMouseOver={() => setElevation(15)}
              onMouseOut={() => setElevation(1)}
              elevation={elevation} >
         <Typography className={classes.spacing} variant="h5" component="h3">

@@ -5,6 +5,7 @@
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.2.0",
+    "@material-ui/icons": "^4.2.1",
     "clsx": "latest",
     "fg-loadcss": "^2.1.0",
     "gh-pages": "^2.0.1",
