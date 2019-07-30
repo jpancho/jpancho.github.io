@@ -34,7 +34,7 @@ export default function ProjectsPanel() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography className={classes.heading}>WePerform</Typography>
+          <Typography className={classes.heading}><a href="https://weperform-8063b.web.app/">WePerform</a></Typography>
           <Typography className={classes.secondaryHeading}>Vue, Vuetify, Vuex, Firebase/Firestore</Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
@@ -49,7 +49,7 @@ export default function ProjectsPanel() {
           aria-controls="panel2a-content"
           id="panel2a-header"
         >
-          <Typography className={classes.heading}>Portfolio</Typography>
+          <Typography className={classes.heading}><a href="https://jpancho.github.io/">Portfolio</a></Typography>
           <Typography className={classes.secondaryHeading}>React, Material-UI</Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
